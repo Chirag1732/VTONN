@@ -15,13 +15,16 @@ function Header() {
         </div>
         <ul class="nav-list">
           <li>
-            <a href="/home">Home</a>
+            <Link to="/home"> Home </Link>
+            {/* <a href="/home">Home</a> */}
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about"> About </Link>
+            {/* <a href="/about">About</a> */}
           </li>
           <li>
-            <a href="/team">Team Members</a>
+            <Link to="/Team"> Team Members </Link>
+            {/* <a href="/team">Team Members</a> */}
           </li>
         </ul>
         <div class="nav-header">
