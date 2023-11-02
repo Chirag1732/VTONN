@@ -15,15 +15,18 @@ function Header() {
         </div>
         <ul class="nav-list">
           <li>
-            <Link to="/home"> Home </Link>
+            <Link style={{ textDecoration: "none" }} to="/home">
+              <p className="text">Home</p>
+            </Link>
+            {/* <Link to="/home"> Home </Link> */}
             {/* <a href="/home">Home</a> */}
           </li>
           <li>
-            <Link to="/about"> About </Link>
+            {/* <Link to="/about"> About </Link> */}
             {/* <a href="/about">About</a> */}
           </li>
           <li>
-            <Link to="/Team"> Team Members </Link>
+            {/* <Link to="/Team"> Team Members </Link> */}
             {/* <a href="/team">Team Members</a> */}
           </li>
         </ul>

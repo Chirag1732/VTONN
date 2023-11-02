@@ -2,7 +2,7 @@ import React from "react";
 import FirstImage from "./FirstImage";
 import Header from "./Header";
 import Slider from "../src/Slider/Slider";
-import Home from '../src/Home'
+import Home from "../src/Home";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 function App() {
@@ -10,7 +10,8 @@ function App() {
     <>
       <Routes>
         <Route
-          exact path="/"
+          exact
+          path="/"
           element={
             <div>
               <Header></Header>
@@ -18,14 +19,7 @@ function App() {
             </div>
           }
         ></Route>
-          <Route
-          path="/home"
-          element={
-            <div>
-              <Home></Home>
-            </div>
-          }
-        ></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
         <Route
           path="/vton"
           element={
